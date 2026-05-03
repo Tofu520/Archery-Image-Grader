@@ -1,0 +1,25 @@
+#macOS
+.DS_Store
+
+#Xcode
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+.build/
+
+#ML training weights
+*.pt
+
+#Training data
+yolo_data/
+archive/
+new/
+runs/
+
+#Python notebook
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
